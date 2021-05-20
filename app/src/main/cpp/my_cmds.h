@@ -1,0 +1,1 @@
+int do_test(int argc,char **argv);

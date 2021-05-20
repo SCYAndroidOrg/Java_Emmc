@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/chose_emmc"
+        android:text="选择芯片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myclick"/>
+
+    <TextView
+        android:id="@+id/fw_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未选择emmc" />
+
+    <Button
+        android:id="@+id/chose_bin"
+        android:text="选择更新文件"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/bin_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未选择更新文件" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myclick"
+        android:text="更新" />
+    <Button
+        android:id="@+id/read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看信息"
+        android:onClick="myclick"/>
+    <Button
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myclick"
+        android:text="帮助" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读写测试"
+        android:id="@+id/rwtest"
+        android:onClick="myclick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="老化测试"
+        android:id="@+id/oldtest"
+        android:onClick="myclick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123123123123123"
+        android:id="@+id/JNITest"
+        />
+
+
+</LinearLayout>

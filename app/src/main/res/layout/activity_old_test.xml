@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OldTest">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择老化测试的参数"
+        android:id="@+id/TestPar"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="参数1"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/param1"
+        android:onClick="onClick"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="输入参数3"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:id="@+id/param3"
+            android:hint="输入xxx"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="开始测试"
+        android:textSize="20sp"
+        android:id="@+id/startTest"
+        android:onClick="onClick"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
